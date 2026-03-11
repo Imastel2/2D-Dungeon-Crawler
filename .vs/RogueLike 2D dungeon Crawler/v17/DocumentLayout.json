@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|c:\\users\\imast\\onedrive\\unity\\projects\\roguelike 2d dungeon crawler\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|c:\\users\\imast\\onedrive\\unity\\projects\\roguelike 2d dungeon crawler\\assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\assets\\scripts\\enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED36926A-34ED-0601-5D70-F3E7B239F53B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T05:17:40.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAttack.cs",
+              "ToolTip": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAttack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T05:07:06.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\EnemyBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehaviour.cs",
+              "ToolTip": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\EnemyBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehaviour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T04:51:56.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\IMast\\OneDrive\\Unity\\Projects\\RogueLike 2D dungeon Crawler\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T03:47:31.589Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

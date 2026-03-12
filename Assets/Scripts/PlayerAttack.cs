@@ -3,25 +3,47 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private Transform attackPoint;
-    [SerializeField] private float attackRange = 0.6f;
+    [SerializeField] private float attackDistance = 0.8f;
+    [SerializeField] private Vector2 attackBoxSize = new Vector2(1f, 0.5f);
     [SerializeField] private int attackDamage = 1;
     [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private float attackCooldown = 0.25f;
 
+    private float lastAttackTime;
+    private PlayerMovement playerMovement;
+
+    private void Start()
+    {
+        playerMovement = GetComponent<PlayerMovement>();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (attackPoint == null || playerMovement == null)
+            return;
+
+        // move attack to be in player direction
+        Vector2 facing = playerMovement.FacingDirection.normalized;
+        attackPoint.localPosition = facing * attackDistance;
+        Debug.Log("Facing: " + playerMovement.FacingDirection);
+
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= lastAttackTime + attackCooldown)
         {
             Attack();
+            lastAttackTime = Time.time;
         }
     }
 
     void Attack()
     {
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(attackPoint.position, attackBoxSize, 0f, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyHealth>()?.TakeDamage(attackDamage);
+            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(attackDamage);
+            }
         }
     }
 
@@ -31,6 +53,6 @@ public class PlayerAttack : MonoBehaviour
             return;
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireCube(attackPoint.position, attackBoxSize);
     }
 }

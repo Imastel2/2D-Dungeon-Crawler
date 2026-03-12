@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movement;
-    private Vector2 facingDirection = Vector2.down;
-
+    public Vector2 FacingDirection { get; private set; } = Vector2.down;
+    
     private bool isDashing = false;
     private bool canDash = true;
 
@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (movement != Vector2.zero)
         {
-            facingDirection = movement;
+            FacingDirection = movement;
         }
 
         if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && canDash)
@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (isDashing)
         {
-            Vector2 dashDirection = movement != Vector2.zero ? movement : facingDirection;
+            Vector2 dashDirection = movement != Vector2.zero ? movement : FacingDirection;
             rb.velocity = dashDirection * dashSpeed;
         }
         else
